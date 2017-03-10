@@ -230,6 +230,7 @@ button:active {
     transform: scale(0.7, 0.7);
     position: relative; 
     top: -100px;
+
   }
 }
 
@@ -237,5 +238,16 @@ button:active {
   .calculator {
     transform: scale(0.6, 0.6);
     top: -150px;
+
   }
+}
+
+@media screen and (max-width: 350px) {
+  .calculator {
+    transform: scale(0.6, 0.6);
+    top: -150px;
+    left: -40px;
+    margin: 0;
+  }
+  
 }
